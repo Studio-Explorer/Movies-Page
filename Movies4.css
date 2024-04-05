@@ -33,10 +33,27 @@ span {
     text-shadow: 1px 1px 1px #5c1a62;
 }
 
-span:hover{
+span:hover {
     box-shadow: 2px 2px 2px 2px #e94d6a;
     cursor: pointer;
 }
+
+.join{
+    border: 5px solid;
+    border-radius: 20px 0px 20px 0px;
+    background-color: rgb(1, 3, 3);
+    color: rgba(209, 224, 213, 0.956);
+    padding: 10px 10px 10px 10px;
+    gap: 10px;
+}
+
+.join:hover{
+    text-shadow: 1px 1px 1px #a8adab;
+    box-shadow: 2px 2px 2px 2px #f92d52;
+    cursor: pointer;
+}
+
+
 
 
 .sign-in {
