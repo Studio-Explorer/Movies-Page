@@ -1,5 +1,5 @@
 .bar-item:hover {
-    background-color: rgb(208, 129, 84);
+    background-color: rgb(36, 23, 111);
     border-radius: 15px 50px;
     box-shadow: 4px 4px 6px rgb(110, 224, 214);
     overflow: hidden;
@@ -15,14 +15,33 @@
     align-items: center;
     outline: 2px solid rgb(255, 255, 255);
     cursor: pointer;
-    outline: 3px solid rgb(65, 233, 124);
+    outline: 3px solid rgb(65, 227, 233);
 }
+
+.bar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px auto;
+}
+
+span {
+    border: 2px solid;
+    background-color: rgb(31, 118, 118);
+    color: rgba(255, 255, 255, 0.956);
+    padding: 10px 10px 10px 10px;
+    text-shadow: 1px 1px 1px #5c1a62;
+}
+
+span:hover{
+    box-shadow: 2px 2px 2px 2px #e94d6a;
+    cursor: pointer;
+}
+
 
 .sign-in {
     margin-left: 21px;
     height: 21px;
-
-
 }
 
 .sign-in:hover {
